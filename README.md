@@ -1,1 +1,2 @@
-# jogo-d-velhaa
+# https://eduardaaraujow.github.io/jogo-d-velhaa
+jogo-d-velhaa
