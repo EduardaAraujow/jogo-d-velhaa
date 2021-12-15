@@ -1,0 +1,115 @@
+
+body {
+    background-color: rgb(124, 124, 124);
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+style 
+ *{
+  margin: 0;
+  padding: 0;
+  }
+ img{
+  width: 0px;
+  height: 50px;
+ }
+ #container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px solid black;
+ }
+ .espaco{
+  width: 70px;
+  height: 70px;
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .linha{
+  display: flex;
+ }
+ #tabuleiro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+.botao{
+    font-family: 'Lato', sans-serif;
+    border: 0;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #fff6a4c9;
+}
+ #btnRecomecar{
+  padding: 10px;
+ }
+ input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline:none;
+}
+
+
+#menu-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d4d118;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+form{
+    display: block;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+label{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input{
+    border-bottom: 2px solid #b0cf00;
+    padding: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    background-color: #d9ffcd;
+}
+
+input:focus{
+    border-color: black;
+}
+
+#botao2{
+    background-color: #e4b77cce;
+    border-radius: 4px;
+}
+
+#botao2:hover{
+    background-color: #e4dd7cb0;
+    cursor: pointer;
+}
